@@ -120,7 +120,7 @@ export default function ScoreChart({ scores, criticReview }: ScoreChartProps) {
           <div className="flex-1">
             <h4 className="text-lg font-semibold mb-2 text-gray-900">패션 비평가 평가</h4>
             <p className="text-gray-900 leading-relaxed font-medium italic">
-              &ldquo;{displayReview}&rdquo;
+              {'"'}{displayReview}{'"'}
             </p>
           </div>
         </div>
