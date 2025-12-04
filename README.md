@@ -107,7 +107,8 @@ npm run dev
 ### 1. GitHub 저장소 준비
 
 프로젝트가 이미 GitHub에 푸시되어 있어야 합니다:
-- 저장소: https://github.com/Gyeongmin27/EF2039_p_2.git
+
+- 저장소: <https://github.com/Gyeongmin27/EF2039_p_2.git>
 
 ### 2. Vercel 프로젝트 생성
 
@@ -132,6 +133,7 @@ GEMINI_API_KEY=your_gemini_api_key
 ```
 
 **설정 방법:**
+
 1. 프로젝트 설정 → Environment Variables
 2. 각 변수를 추가 (Production, Preview, Development 모두 선택)
 3. Save 클릭
@@ -145,6 +147,7 @@ GEMINI_API_KEY=your_gemini_api_key
 ### 5. 자동 배포
 
 GitHub에 푸시하면 자동으로 재배포됩니다:
+
 - `main` 브랜치에 푸시 → Production 배포
 - 다른 브랜치에 푸시 → Preview 배포
 

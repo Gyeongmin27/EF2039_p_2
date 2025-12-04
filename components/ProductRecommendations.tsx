@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { RecommendedProduct, ProductRecommendations } from '@/lib/ai/productRecommendations';
+import type { RecommendedProduct, ProductRecommendations } from '@/lib/ai/productRecommendations';
 
 interface ProductRecommendationsProps {
   recommendations: ProductRecommendations;
